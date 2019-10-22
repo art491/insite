@@ -2,11 +2,11 @@
 
 console.log('Loaded map.js')
 
-mapboxgl.accessToken = 'pk.eyJ1IjoicHJvZmhvdXNlIiwiYSI6ImNqZXJnbmxkejE5ZHQycWx0NnF3Z2Z4djgifQ.cs5fxvvr9SxexUawshj4uw'
+mapboxgl.accessToken = 'pk.eyJ1IjoiemlmYW4iLCJhIjoiY2sxcjJqYmN6MDB1MjNucGQ3bHJsZGVydCJ9.5IpeH6mVL9K6QH6rH33VgQ'
 
 let map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v10',
+    style: 'mapbox://styles/zifan/ck22do3jb37rr1cmn3j9fi9t7',
     center: [-73.96024, 40.80877],
     zoom: 12
 })
