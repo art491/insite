@@ -63,7 +63,10 @@ let data = [
 
 data.forEach(function(d) {
 
-    let marker = new mapboxgl.Marker()    
+    var el = document.createElement('div');
+    el.className = 'marker';
+
+    let marker = new mapboxgl.Marker(el)    
     marker.setLngLat(d.location)
     marker.addTo(map)  
 
