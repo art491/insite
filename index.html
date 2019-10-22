@@ -31,7 +31,11 @@
     <div id='map'></div>
 
     <!-- load additional javascript -->
-    <script src='map.js'></script>    
+    <script type="text/javascript">
+        var script = document.createElement("script"); 
+        script.src = "map.js?v=" + Math.floor(Math.random() * Math.floor(10000));
+        document.body.appendChild(script);        
+    </script>      
 
 </body>
 </html>
