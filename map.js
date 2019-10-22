@@ -8,7 +8,7 @@ let map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/zifan/ck22do3jb37rr1cmn3j9fi9t7',
     center: [ -122.670261, 45.449226],
-    zoom: 12
+    zoom: 15
 })
 
 // create an instance of NavigationControl
@@ -48,8 +48,8 @@ geolocate.on('geolocate', function(event) {
 
 let data = [
     {
-        location: [-73.96191,40.80762],
-        content: 'I like to eat my lunch here'
+        location: [-122.667882, 45.450602],
+        content: 'Arnold Gallery: The Hub'
     },
     {
         location: [-73.95936,40.80610],
