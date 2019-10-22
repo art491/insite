@@ -48,8 +48,8 @@ geolocate.on('geolocate', function(event) {
 
 let data = [
     {
-        location: [-73.96191,40.80762],
-        content: 'I like to eat my lunch here'
+        location: [-122.667882, 45.450602],
+        content: 'Arnold Gallery: The Hub'
     },
     {
         location: [-73.95936,40.80610],
