@@ -70,6 +70,10 @@ let data = [
     {
         location: [-122.6682078, 45.4514583],
         content: 'Charlotte'
+    },
+     {
+        location: [-122.6691331, 45.4509804],
+        content: 'Isabel'
     }
     ]
 
