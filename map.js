@@ -52,7 +52,7 @@ let data = [
         content: 'Arnold Gallery: The Hub'
     },
     {
-        location: [-122.3955,45.273],
+        location: [-122.666323,45.450363],
         content: 'Sam'
     },
     {
