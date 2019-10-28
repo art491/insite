@@ -59,6 +59,14 @@ let data = [
         location: [-122.669166,45.450833],
         content: 'Ellery'
     },
+     {
+        location: [-122.6687,45.4523],
+        content: 'Orion'
+    },
+     {
+        location: [-122.667, 45.4508],
+        content: 'Sara'
+    },
     ]
 
 data.forEach(function(d) {
