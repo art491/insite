@@ -48,12 +48,12 @@ geolocate.on('geolocate', function(event) {
 
 let data = [
     {
-        location: [-122.667882, 45.450602+.000040],
+        location: [-122.667882, 45.450602],
         content: 'Arnold Gallery: The Hub'
     },
     {
-        location: [-73.95936,40.80610],
-        content: '15 years ago, you could see over the trees'
+        location: [-122.3955,45.273],
+        content: 'Sam'
     },
     {
         location: [-73.96204,40.80994],
