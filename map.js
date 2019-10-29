@@ -55,10 +55,6 @@ let data = [
         location: [-122.666323,45.450363],
         content: 'Sam'
     },
-    {
-        location: [-122.669166,45.450833],
-        content: 'Ellery'
-    },
      {
         location: [-122.6687,45.4523],
         content: 'Orion'
@@ -72,8 +68,8 @@ let data = [
         content: 'Charlotte'
     },
      {
-        location: [-122.6693, 45.4513],
-        content: 'Isabel'
+        location: [-122.669058, 45.450928],
+        content: 'Library: Isabel, Ellory, Justin, Ashley, Dylan'
     },
     {
         location: [-122.6688562, 45.4493269],
@@ -90,6 +86,10 @@ let data = [
     {
         location: [-122.6700595, 45.4501421],
         content: 'Joanne'
+    },
+    {
+        location: [ -122.6693,45.4513],
+        content: 'Emma'
     }]
 
 data.forEach(function(d) {
