@@ -7,8 +7,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiemlmYW4iLCJhIjoiY2sxcjJqYmN6MDB1MjNucGQ3bHJsZ
 let map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/zifan/ck22do3jb37rr1cmn3j9fi9t7',
-    center: [ -122.6694851, 45.4493653],
-    zoom: 15.3
+    center: [ -122.6694801, 45.4493683],
+    zoom: 15.7
 })
 
 // create an instance of NavigationControl
