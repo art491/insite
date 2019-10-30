@@ -84,7 +84,7 @@ let data = [
         content: 'Joanne'
     },
     {
-        location: [ -122.6694,45.4512],
+        location: [ -122.6694,45.45125],
         content: 'Emma'
     }]
 
