@@ -94,7 +94,8 @@ let data = [
     {
         location [-122.668409, 45.450095],
         content: 'Zifan'
-    }]
+    }
+]
 
 data.forEach(function(d) {
 
